@@ -1,0 +1,16 @@
+{
+  "name": "notes_app",
+  "version": "1.0.0",
+  "description": "Notes app let you add, remove, list and read operation using command line.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "vipuljain08",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "yargs": "^14.2.0"
+  }
+}
